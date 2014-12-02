@@ -2,14 +2,16 @@
 using System.Collections;
 
 public class WaypointController : MonoBehaviour {
-
+	public Transform mainCamera;
+	public GameObject[] texts;
 	public GameObject[] waypoints;
 	public int waypointIndex = 0;
-	public GameObject[] texts;
+
+
 
 	// Use this for initialization
 	void Start () {
-		moveCameraToPosition (gameObject, waypoints[0].transform.position);
+		moveCameraToPosition (mainCamera, waypoints[0].transform.position);
 	}
 	
 	// Update is called once per frame
@@ -23,7 +25,7 @@ public class WaypointController : MonoBehaviour {
 				waypointIndex = 0;
 			} 
 			toggleActive (texts[waypointIndex], true);
-			moveCameraToPosition (gameObject, waypoints[waypointIndex].transform.position);
+			moveCameraToPosition (mainCamera, waypoints[waypointIndex].transform.position);
 		}
 	}
 
@@ -36,12 +38,12 @@ public class WaypointController : MonoBehaviour {
 	public void moveToWaypoint (int index) {
 		waypointIndex = index;
 		toggleActive (texts[waypointIndex], true);
-		moveCameraToPosition (gameObject, waypoints[index].transform.position); 
+		moveCameraToPosition (mainCamera, waypoints[index].transform.position); 
 	}
 
-	private void moveCameraToPosition(GameObject objectToMove, Vector3 newPosition) {
+	private void moveCameraToPosition(Transform moveTransform, Vector3 newPosition) {
 		Debug.Log ("Moving camera");
-		objectToMove.transform.position = newPosition;
+		moveTransform.position = newPosition;
 	}
 
 	private void toggleActive(GameObject obj, bool state) {
