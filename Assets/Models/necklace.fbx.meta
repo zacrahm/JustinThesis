@@ -1,0 +1,127 @@
+fileFormatVersion: 2
+guid: 7f71c8f2d0d391b4c9b29fbb08aa31ec
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: neck_charm_01:Group8
+    100002: neck_charm_02:Group7
+    100004: neck_charm_03:Group6
+    100006: neck_charm_04:Group5
+    100008: neck_charm_05:Group4
+    100010: neck_charm_06:Group3
+    100012: //RootNode
+    100014: necklace_01:Group2
+    100016: necklace_02:Group10
+    100018: necklace_02:Group11
+    100020: necklace_02:Group12
+    100022: necklace_02:Group13
+    100024: necklace_02:Group14
+    100026: necklace_02:Group9
+    400000: neck_charm_01:Group8
+    400002: neck_charm_02:Group7
+    400004: neck_charm_03:Group6
+    400006: neck_charm_04:Group5
+    400008: neck_charm_05:Group4
+    400010: neck_charm_06:Group3
+    400012: //RootNode
+    400014: necklace_01:Group2
+    400016: necklace_02:Group10
+    400018: necklace_02:Group11
+    400020: necklace_02:Group12
+    400022: necklace_02:Group13
+    400024: necklace_02:Group14
+    400026: necklace_02:Group9
+    2300000: neck_charm_01:Group8
+    2300002: neck_charm_02:Group7
+    2300004: neck_charm_03:Group6
+    2300006: neck_charm_04:Group5
+    2300008: neck_charm_05:Group4
+    2300010: neck_charm_06:Group3
+    2300012: necklace_01:Group2
+    2300014: necklace_02:Group10
+    2300016: necklace_02:Group11
+    2300018: necklace_02:Group12
+    2300020: necklace_02:Group13
+    2300022: necklace_02:Group14
+    2300024: necklace_02:Group9
+    3300000: neck_charm_01:Group8
+    3300002: neck_charm_02:Group7
+    3300004: neck_charm_03:Group6
+    3300006: neck_charm_04:Group5
+    3300008: neck_charm_05:Group4
+    3300010: neck_charm_06:Group3
+    3300012: necklace_01:Group2
+    3300014: necklace_02:Group10
+    3300016: necklace_02:Group11
+    3300018: necklace_02:Group12
+    3300020: necklace_02:Group13
+    3300022: necklace_02:Group14
+    3300024: necklace_02:Group9
+    4300000: neck_charm_02:Group7
+    4300002: neck_charm_03:Group6
+    4300004: neck_charm_04:Group5
+    4300006: neck_charm_05:Group4
+    4300008: neck_charm_06:Group3
+    4300010: necklace_01:Group2
+    4300012: necklace_02:Group9
+    4300014: necklace_02:Group10
+    4300016: necklace_02:Group11
+    4300018: necklace_02:Group12
+    4300020: necklace_02:Group13
+    4300022: necklace_02:Group14
+    4300024: neck_charm_01:Group8
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
